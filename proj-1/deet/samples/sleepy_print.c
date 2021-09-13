@@ -9,6 +9,12 @@ int main(int argc, char *argv[]) {
         exit(1);
     }
     for (unsigned long i = 0; i < num_seconds; i++) {
+        int a = 1;
+        int b = 1;
+        int c = 1;
+        int d = 1;
+        int e = 1;
+
         printf("%lu\n", i);
         sleep(1);
     }
